@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Roboto+Slab&display=swap');
+body {
+    background-image: url('../img/adam.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.webdev-img {
+    width: 100%;
+    height: auto;
+}
+
+.webdev-header {
+    color: #762222;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px white;
+    text-align:center;
+   
+}
+
+.webdev-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th {
+    color:orangered;
+}
+
+.fa-facebook-square {
+    font-size: 30px;
+    color: blue;
+}
+
+.fa-twitter-square {
+    font-size: 30px;
+    color:aqua;
+}
+
+.apply > a:hover {
+    color:red;
+}
+
+.apply > a:active {
+    color:green;
+}

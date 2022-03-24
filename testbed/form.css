@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: cornflowerblue;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    padding-top: 15px;
+}
+
+.text-grey {
+    color: #8c8d8d;
+}
+
+.email, .password {
+    width: 90%;
+    height: 40px;
+    background-color: #faf4f4;
+    border-radius: 5px;
+    border-width: 0;
+    padding-left: 10px;
+}
+
+.submit-btn {
+    width: 90%;
+    height: 40px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border-width: 0;
+    color: white;
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.halign {
+    text-align: center;
+}
+
+.pb-50{
+    padding-bottom: 50px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.text-sm {
+    font-size: 0.9rem;
+}
+
+.email:valid + span::before,
+.password:valid + span::before{
+    content: "\2713";
+    color:green;
+    font-size: 20px;
+}
